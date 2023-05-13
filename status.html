@@ -6,6 +6,7 @@ $(if refresh-timeout)
 $(endif)
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+<meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/siswa-tmplt.css">
 <link rel="icon" href="img/logo-web.png" />
 <style>
@@ -125,7 +126,7 @@ $(endif)
 	document.getElementById('title').innerHTML = window.location.hostname + " > status";
 //get vaidity
     var usr = document.getElementById('user').innerHTML
-    var url = "https://desadigital.mikhmon.online/status/status.php?name=";
+    var url = "";
     var SessionName = "DesaDigital"
     var getvalid = url+usr+"&session="+SessionName
     document.getElementById('exp').src = getvalid;	
